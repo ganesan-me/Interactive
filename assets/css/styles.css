@@ -1,0 +1,118 @@
+
+body, body *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(40, 40, 92);
+}
+#toggleIconContainer{
+    width : 50px;
+    height: 50px;
+    margin: 15px 15px 15px auto;     
+}
+#toggleIconContainer img{
+    width : 50px;
+    height: 50px;
+    transition: all 200ms 0s ease-in-out;
+}
+#toggleIconContainer img:hover{
+    transform: scale(1.1) rotate(20deg);
+}
+#cardAndTableContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;   
+}
+.card{
+    width: 280px;
+    background-color: white;
+    margin: 15px;   
+}
+.card img:first-child{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 0 auto;
+    transition: all 50ms 0s ease-in-out;
+}
+.card img:last-child{
+    display: block;
+    width: 105px;
+    height: 120px;
+    margin: 15px auto;    
+}
+.card form div{
+    margin: 10px 0;
+}
+.card form div *:first-child{
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-weight: 700;
+}
+.card form div *:last-child{
+    text-align: left;
+    width: 55%;
+}
+.card form div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
+.card form div:last-child span{
+    width: unset;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10%; 
+    border-radius: 15%;
+    color:blue;
+    text-align: right;
+    transition: all 50ms 0s ease-in-out;
+}
+.card img:first-child:hover{
+    transform: scale(1.5) rotate(10deg);
+}
+.card form div input:hover, .card form div:last-child span:hover{
+    transform: scale(1.5);
+}
+.card form div:last-child *:hover{
+    background-color: whitesmoke;
+}
+.card form div:last-child span:last-child{
+    display: none;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+table tr{
+    height: 50px;
+}
+table th, table td{
+    border: 5px solid rgb(40, 40, 92);
+    width: 16.66%;    
+}
+.tableIcons img{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: auto 10px;
+    transition: all 100ms 0s ease-in-out;
+}
+.tableIcons img:hover{
+    transform: scale(1.5);
+}
+.tableIcons .save{
+    display: none;
+}
+table tr td input{
+    height: 80%;
+    transition: all 100ms 0s ease-in-out;
+}
+table tr td input:hover{
+    transform: scale(1.5);
+}

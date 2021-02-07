@@ -1,0 +1,124 @@
+{
+    "Employees":[
+        {
+            "Name": "John",
+            "Gender": "Male",
+            "ID": 123401,
+            "Skills": "Angular, React, JS",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Jason",
+            "Gender": "Male",
+            "ID": 123402,
+            "Skills": "Angular, React",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Mia",
+            "Gender": "Female",
+            "ID": 123403,
+            "Skills": "React, JS",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "David",
+            "Gender": "Male",
+            "ID": 123404,
+            "Skills": "JS, Angular",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Emma",
+            "Gender": "Female",
+            "ID": 123405,
+            "Skills": "Angular, JS",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Henry",
+            "Gender": "Male",
+            "ID": 123406,
+            "Skills": "React, Angular",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Kevin",
+            "Gender": "Male",
+            "ID": 123407,
+            "Skills": "Angular, JS, React",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Maria",
+            "Gender": "Female",
+            "ID": 123408,
+            "Skills": "Angular, React, JS",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Amelia",
+            "Gender": "Female",
+            "ID": 123409,
+            "Skills": "Angular, React, JS",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Jack",
+            "Gender": "Male",
+            "ID": 123410,
+            "Skills": "React, JS",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Emily",
+            "Gender": "Female",
+            "ID": 123411,
+            "Skills": "Angular, JS",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Daniel",
+            "Gender": "Male",
+            "ID": 123412,
+            "Skills": "Angular, React",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Zoe",
+            "Gender": "Female",
+            "ID": 123413,
+            "Skills": "Js, Angular, React",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "Mary",
+            "Gender": "Female",
+            "ID": 123414,
+            "Skills": "Js, React",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         },
+        {
+            "Name": "James",
+            "Gender": "Male",
+            "ID": 123415,
+            "Skills": "Angular, React",
+            "Project": "ABC Project",
+            "HCM" : "Alex"
+         }
+        ]
+}
