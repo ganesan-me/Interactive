@@ -41,7 +41,7 @@ class employeeTemplate {
 }
 
 
-//                                    Main Functionality
+//                                      Main Functionality
 
 loadDoc();
 data = JSON.parse(json)
