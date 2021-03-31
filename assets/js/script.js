@@ -66,7 +66,7 @@ function loadDoc() {
       json = this.responseText;
     }
   };
-  xhttp.open("GET", "https://ganesan-me.github.io/Interactive/assets/js/empInfo.json", false);
+  xhttp.open("GET", `${window.location.href}assets/js/empInfo.json`, false);
   xhttp.send();
 }
 
